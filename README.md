@@ -91,5 +91,6 @@ This project essentially combines projects 2 and 4. However, it includes the ess
 
 
 -> What’s next?
+---------------
 Thanks to tools like ChatGPT and Cursor, it’s never been easier to build AI projects fast. Things that used to block me for hours (if not days) a few years ago can now be resolved in minutes with advanced coding assistants.
 
