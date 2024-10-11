@@ -1,4 +1,4 @@
-1) Resume Optimization (Beginner)
+-> 1) Resume Optimization (Beginner)
 ----------------------------------
 An effective yet time-consuming part of applying for jobs is adapting your resume to different job descriptions. While automating this task would have been an advanced project a few years ago, with today’s large language models, it is as simple as an API call.
 
@@ -16,7 +16,7 @@ While we could readily use ChatGPT for this, the upside of implementing this wit
 Note: ChatGPT is super helpful for writing short code snippets (and prompts) like this. If you get stuck, try it for Step 4.
 
 
-2) YouTube Lecture Summarizer (Beginner)
+-> 2) YouTube Lecture Summarizer (Beginner)
 -------------------------------------------
 Although I love adding technical talks to my YouTube “watch later” playlist, it might be a while before I watch them (if I ever get around to it 😅). A project that can help with this is a tool that watches the videos for me and generates concise summaries with key points.
 
@@ -33,7 +33,7 @@ From a technical perspective, this is very similar to the first project. A key d
 
 
 
-3) Automatically Organizing PDFs (Intermediate)
+-> 3) Automatically Organizing PDFs (Intermediate)
 ----------------------------------------------
 My watch later playlist is not the only place I hoard technical information. Another cache is my desktop, which is riddled with (118) research papers. Since manually reviewing these papers would be (very) time-consuming, let’s see how AI can help.
 
@@ -50,7 +50,7 @@ Libraries: PyMuPDF, sentence_transformers, pandas, sklearn
 
 The key step for this project is generating the text embeddings. Here’s a code snippet for doing that with sentence_transformers.
 
-4) Multimodal Search (Intermediate)
+-> 4) Multimodal Search (Intermediate)
 -----------------------------------
 A couple of months ago, I helped a company create a basic RAG system for a set of technical reports. One of the challenges with searching such reports is that key information is often presented in plots and figures rather than text.
 
@@ -71,7 +71,7 @@ The most important part of this project is how the PDFs are chunked. The simples
 
 Here’s some basic boilerplate code to do that (courtesy of ChatGPT). If you get stuck, try asking it to extract the images.
 
-5) Knowledge Base QA (Advanced)
+-> 5) Knowledge Base QA (Advanced)
 --------------------------------
 Over the past year, I’ve helped almost 100 businesses and individuals build AI projects. By far, the most common project people ask about is a document question-answering system. Building on the previous project, we can implement this in a straightforward way.
 
